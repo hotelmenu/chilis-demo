@@ -23,7 +23,7 @@ body {
 
 
 .divider {
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     background-color: var(--bg-color);
 }
 
@@ -31,7 +31,7 @@ body {
 
 .hero {
     padding-inline: 20px;
-    color:antiquewhite; 
+    color:rgb(255, 255, 255); 
     margin: auto;
 }
 
@@ -311,7 +311,7 @@ form i {
     font-size: 1.25rem;
     opacity: 0.5;
     color: #ffffff;
-    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display SC', serif;
 }
 
 /* media queries */
