@@ -25,6 +25,39 @@ body {
 .divider {
     color: rgb(255, 255, 255);
     background-color: var(--bg-color);
+    width: 375px;
+    padding: 20px; 
+}
+
+.landing-div-food{
+    display: flex;
+    margin-inline: 20px;
+    width: 320px;
+    height: 150px;
+    background-image: url(images/pilau\ beef\ stew.jpeg);
+    background-size: cover;
+    box-shadow: var(--shadow-2);
+}
+
+.landing-div-drinks{
+    display: flex;
+    margin-inline: 20px;
+    width: 320px;
+    height: 150px;
+    background-image: url(images/bottle\ service.jpeg);
+    background-size: cover;
+    box-shadow: var(--shadow-2);
+}
+
+.landing-title {
+    width: 100%;
+    height: 40%;
+    background-color: var(--product-color);
+    color: rgba(202,218,235,255);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-size: 1.35rem;
 }
 
 
@@ -59,7 +92,7 @@ body {
 
 .landing-menu {
     max-width: 350px;
-    margin: auto;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
