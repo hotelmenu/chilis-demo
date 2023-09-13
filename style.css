@@ -34,7 +34,7 @@ body {
     width: 330px;
     height: 150px;
     margin-bottom: 20px;
-    background-image: url(images/pilau\ beef\ stew.jpeg);
+    background-image: url(images/food/main\ courses.jpeg);
     background-size: cover;
     box-shadow: var(--box-shadow);
 }
@@ -48,7 +48,7 @@ body {
     width: 330px;
     height: 150px;
     margin-bottom: 20px;
-    background-image: url(images/bottle\ service.jpeg);
+    background-image: url(images/drinks/bottle.2.jpeg);
     background-size: cover;
     box-shadow: var(--box-shadow);
 }
