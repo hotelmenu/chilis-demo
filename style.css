@@ -31,27 +31,31 @@ body {
 
 .landing-div-food{
     display: flex;
-    margin-inline: 20px;
-    width: 320px;
+    width: 330px;
     height: 150px;
+    margin-bottom: 20px;
     background-image: url(images/pilau\ beef\ stew.jpeg);
     background-size: cover;
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--box-shadow);
+}
+
+.food0{
+    font-size: 1.85rem;
 }
 
 .landing-div-drinks{
     display: flex;
-    margin-inline: 20px;
-    width: 320px;
+    width: 330px;
     height: 150px;
+    margin-bottom: 20px;
     background-image: url(images/bottle\ service.jpeg);
     background-size: cover;
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--box-shadow);
 }
 
 .landing-title {
     width: 100%;
-    height: 40%;
+    height: 50%;
     background-color: var(--product-color);
     color: rgba(202,218,235,255);
     padding: 1rem;
